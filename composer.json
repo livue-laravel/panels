@@ -1,0 +1,30 @@
+{
+    "name": "primix/panels",
+    "description": "Primix - Admin panel framework for Laravel based on LiVue",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "primix/support": "self.version",
+        "primix/forms": "self.version",
+        "primix/details": "self.version",
+        "primix/tables": "self.version",
+        "primix/actions": "self.version",
+        "primix/notifications": "self.version",
+        "primix/widgets": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Primix\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Primix\\PrimixServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
