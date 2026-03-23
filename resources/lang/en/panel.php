@@ -11,6 +11,7 @@ return [
         'delete' => 'Delete',
         'force_delete' => 'Force delete',
         'restore' => 'Restore',
+        'clone' => 'Clone',
         'restore_selected' => 'Restore selected',
         'delete_selected' => 'Delete selected',
         'force_delete_selected' => 'Force delete selected',
@@ -32,6 +33,7 @@ return [
         'deleted' => 'Record deleted successfully',
         'force_deleted' => 'Record permanently deleted',
         'restored' => 'Record restored successfully',
+        'cloned' => 'Record cloned successfully',
         'detached' => 'Record detached successfully',
         'deleted_relation' => 'Deleted successfully',
         'added' => 'Added successfully',
@@ -57,6 +59,8 @@ return [
         'create' => 'Create :model',
         'edit' => 'Edit :model',
         'view' => 'View :model',
+        'edit_record' => 'Edit :record',
+        'view_record' => 'View :record',
     ],
 
     'breadcrumbs' => [
@@ -99,5 +103,9 @@ return [
         'no_notifications' => 'No notifications',
         'loading' => 'Loading...',
         'load_more' => 'Load more',
+    ],
+
+    'workspace' => [
+        'close_tab' => 'Close tab',
     ],
 ];
